@@ -38,10 +38,10 @@
 
       <form id="formulario">
         <label for="area">Área del techo (m²):</label>
-        <input type="number" id="area" >
+        <input type="number" id="area" min="1" >
 
         <label for="precipitacion">Precipitación anual (mm):</label>
-        <input type="number" id="precipitacion" >
+        <input type="number" id="precipitacion"  min="1" >
 
         <label for="material">Material del techo:</label>
         <select id="material">
@@ -69,4 +69,5 @@
 
   <script src="js/calculadora.js"></script>
 </body>
+
 </html>
